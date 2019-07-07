@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Funcionamento Offline"
+    id="0367c09d-ef46-4c97-8fc0-46bbb63c480b"
+    documentation="Fazer a localização offline, fazendo download do mapa e localizações. Utilizar somente GPS e acelerômetro"/>

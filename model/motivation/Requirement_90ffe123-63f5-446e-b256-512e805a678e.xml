@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Vazão de Saída"
+    id="90ffe123-63f5-446e-b256-512e805a678e"
+    documentation="A área da fila é delimitada e o time gerencial de Machu Picchu gostaria de saber todas as pessoas que estão na fila de saída, o tempo médio de duração na fila e a ordem das pessoas na fila em um dashboard operacional e online."/>

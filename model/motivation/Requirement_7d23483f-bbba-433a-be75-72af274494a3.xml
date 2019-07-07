@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Vibração e Notificação"
+    id="7d23483f-bbba-433a-be75-72af274494a3"
+    documentation="O aplicativo deve vibrar e notificar sobre um ponto turístico."/>

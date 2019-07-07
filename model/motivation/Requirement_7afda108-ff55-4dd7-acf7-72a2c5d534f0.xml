@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reorganização de filas"
+    id="7afda108-ff55-4dd7-acf7-72a2c5d534f0"
+    documentation="Caso um ônibus quebre ou passe na frente de outro, a ordem dos ônibus pode mudar para o próximo ônibus que chegar ao local de embarque, embarcar os primeiros da fila."/>

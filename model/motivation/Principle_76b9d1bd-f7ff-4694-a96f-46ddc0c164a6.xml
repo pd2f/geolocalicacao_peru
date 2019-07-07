@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Pontos visitados"
+    id="76b9d1bd-f7ff-4694-a96f-46ddc0c164a6"
+    documentation="Armazenar quais pontos foram visitados, medindo se a localização do turista está dentro de um dos pontos mapeados."/>

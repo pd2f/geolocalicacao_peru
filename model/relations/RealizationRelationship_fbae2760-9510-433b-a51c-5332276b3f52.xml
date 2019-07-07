@@ -1,0 +1,13 @@
+<archimate:RealizationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Saber mais"
+    id="fbae2760-9510-433b-a51c-5332276b3f52"
+    documentation="Os ">
+  <source
+      xsi:type="archimate:Requirement"
+      href="Requirement_5e99fe9c-bbd4-4e9c-a5c9-74057c6f9c29.xml#5e99fe9c-bbd4-4e9c-a5c9-74057c6f9c29"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_23b09400-65e8-42c2-8fa1-4b23bdfc7544.xml#23b09400-65e8-42c2-8fa1-4b23bdfc7544"/>
+</archimate:RealizationRelationship>

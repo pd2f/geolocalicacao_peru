@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Notificação"
+    id="f6855ccc-7e37-4bed-8749-6bfc2e186ef0"
+    documentation="Se o usuário sair da área delimitada, ele será avisado que após 5 minutos perde o lugar na fila."/>

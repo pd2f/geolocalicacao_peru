@@ -1,0 +1,5 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Identificar Pontos Turísticos"
+    id="23b09400-65e8-42c2-8fa1-4b23bdfc7544"
+    documentation="Sempre que o usuário se aproximar de um ponto que tem alguma história Inca, alguma curiosidade ou informação relevante, o App vibre e mostre uma notificação que ao selecionada o App mostrará essas informações previamente cadastradas."/>

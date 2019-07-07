@@ -1,0 +1,12 @@
+<archimate:RealizationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="alerta de ponto turístico"
+    id="1c946d16-3365-49fe-845c-f19454d87dd0">
+  <source
+      xsi:type="archimate:Requirement"
+      href="Requirement_7d23483f-bbba-433a-be75-72af274494a3.xml#7d23483f-bbba-433a-be75-72af274494a3"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_23b09400-65e8-42c2-8fa1-4b23bdfc7544.xml#23b09400-65e8-42c2-8fa1-4b23bdfc7544"/>
+</archimate:RealizationRelationship>

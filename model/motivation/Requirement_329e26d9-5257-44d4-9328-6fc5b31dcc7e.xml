@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Analitics"
+    id="329e26d9-5257-44d4-9328-6fc5b31dcc7e"
+    documentation="Obtendo os dados dos ônibus via GPS (Streaming), e a quantidade de pessoas na fila, dá para prever em qual ônibus o usuário vai pegar e quanto tempo irá demorar na fila. Da para prever também que horas ele chegará ao seu destino."/>

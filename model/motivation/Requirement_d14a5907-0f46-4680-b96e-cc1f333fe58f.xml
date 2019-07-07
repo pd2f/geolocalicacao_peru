@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Fila online"
+    id="d14a5907-0f46-4680-b96e-cc1f333fe58f"
+    documentation="Utilizar mapeamento do local para obter o raio da área onde é possível pegar o ônibus. Quando o usuário estiver dentro desse raio, ativar a opção de entrar numa fila virtual."/>
