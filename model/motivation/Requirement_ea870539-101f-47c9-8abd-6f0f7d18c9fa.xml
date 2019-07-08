@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Posição"
+    id="ea870539-101f-47c9-8abd-6f0f7d18c9fa"
+    documentation="Muitos turistas se aventuram a subir a montanha Machu Picchu e seus mais de 2600 degraus. É uma tarefa bem difícil e durante o caminho não há como saber se falta muito ou pouco tempo até chegar ao topo&#xD;&#xA;&#xD;&#xA;Existe a necessidade de prover uma forma para que os usuários que estiverem utilizando o App durante a escala, saibam aonde eles estão ao longo da escalada, pois muitos desistem de continuar, as vezes estando perto.&#xD;&#xA;&#xD;&#xA;Localização baseado na altura em que o usuário está pegando dados com acelerômetro, cruzando com o tamanho da montanha e localização atual."/>

@@ -1,13 +1,11 @@
 <archimate:RealizationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Saber mais sobre"
-    id="fbae2760-9510-433b-a51c-5332276b3f52"
-    documentation="Os detalhes históricos deverão ser apresentados ao usuários.">
+    id="7eae105f-21e7-4bcd-b1a4-0e73004e0f2d">
   <source
       xsi:type="archimate:Requirement"
       href="Requirement_5e99fe9c-bbd4-4e9c-a5c9-74057c6f9c29.xml#5e99fe9c-bbd4-4e9c-a5c9-74057c6f9c29"/>
   <target
-      xsi:type="archimate:Goal"
-      href="Goal_23b09400-65e8-42c2-8fa1-4b23bdfc7544.xml#23b09400-65e8-42c2-8fa1-4b23bdfc7544"/>
+      xsi:type="archimate:Principle"
+      href="Principle_76b9d1bd-f7ff-4694-a96f-46ddc0c164a6.xml#76b9d1bd-f7ff-4694-a96f-46ddc0c164a6"/>
 </archimate:RealizationRelationship>

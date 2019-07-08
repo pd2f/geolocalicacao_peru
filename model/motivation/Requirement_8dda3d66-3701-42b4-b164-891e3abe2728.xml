@@ -1,4 +1,5 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Embarque"
-    id="8dda3d66-3701-42b4-b164-891e3abe2728"/>
+    id="8dda3d66-3701-42b4-b164-891e3abe2728"
+    documentation="Para confirmar a saída, o usuário terá que ler um QRCode para garantir seu embarque e efetuar o checkout"/>

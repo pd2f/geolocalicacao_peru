@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Service Mesh"
+    id="9c09bb0c-98f8-44cd-97ae-f1f997b367b5"
+    documentation="Criar uma rede service mesh para um Arduino se comunicar com outro, até o ponto de entrada da montanha, com sinal de internet, para enviar o aviso de emergência"/>

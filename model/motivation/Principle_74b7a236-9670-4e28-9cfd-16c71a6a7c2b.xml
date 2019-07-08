@@ -1,0 +1,5 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Sensores"
+    id="74b7a236-9670-4e28-9cfd-16c71a6a7c2b"
+    documentation="Colocar sensores bluetooth (Arduino) a cada X metros para fazer um checkpoint e dar um aviso qual sua localização atual e quanto falta para o final."/>

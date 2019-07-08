@@ -1,4 +1,5 @@
 <archimate:Goal
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Melhorar operacionalização das filas"
-    id="3ad97672-f5e2-4b9d-a315-a4317b23bb28"/>
+    id="3ad97672-f5e2-4b9d-a315-a4317b23bb28"
+    documentation="A área da fila é delimitada e o time gerencial de Machu Picchu gostaria de saber todas as pessoas que estão na fila de saída o tempo médio de duração na fila e a ordem das pessoas na fila"/>
