@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Localizações"
+    id="ebbfeda1-871a-4768-8861-b0de146d26b1"
+    documentation="Localizações mapeadas digitalmente ao longo da montanha emitindo sinais para descoberta. O app receberá o sinal e identificará a posição no mapa."/>

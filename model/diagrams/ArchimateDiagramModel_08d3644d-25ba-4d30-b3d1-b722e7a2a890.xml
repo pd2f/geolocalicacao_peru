@@ -1,0 +1,43 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Aplicativos do Peru Geonline"
+    id="08d3644d-25ba-4d30-b3d1-b722e7a2a890"
+    viewpoint="application_cooperation">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="46cc6011-0a5d-4481-9bd7-ceee59f55bf6">
+    <bounds
+        x="47"
+        y="181"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_87b17bbb-6abc-4850-9235-208c46fbf9e5.xml#87b17bbb-6abc-4850-9235-208c46fbf9e5"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="911cbd2f-a556-46d1-b890-cdbfa0182448">
+    <bounds
+        x="222"
+        y="181"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_ebbfeda1-871a-4768-8861-b0de146d26b1.xml#ebbfeda1-871a-4768-8861-b0de146d26b1"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="35b6fb96-eda8-48b7-8443-a93ccdd020c5">
+    <bounds
+        x="394"
+        y="181"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_eb4d4fed-1523-448a-af7e-9968ba7ec18a.xml#eb4d4fed-1523-448a-af7e-9968ba7ec18a"/>
+  </children>
+</archimate:ArchimateDiagramModel>

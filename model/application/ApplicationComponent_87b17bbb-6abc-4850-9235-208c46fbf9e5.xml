@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Rede Service Mesh"
+    id="87b17bbb-6abc-4850-9235-208c46fbf9e5"
+    documentation="Rede mesh que transmitirá as mensagens de urgência para socorro."/>
