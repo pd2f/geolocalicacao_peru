@@ -1,0 +1,9 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Visitas"
+    id="40d1ad5e-7fb0-4349-b961-a2ba23087391">
+  <properties
+      key="Início"/>
+  <properties
+      key="Fim"/>
+</archimate:DataObject>
