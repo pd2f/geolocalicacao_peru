@@ -1,0 +1,11 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Pontos Turísticos"
+    id="a67258eb-126f-4858-b350-40cbadbfde07">
+  <properties
+      key="Descrição do Ponto"/>
+  <properties
+      key="Latitute"/>
+  <properties
+      key="Longitude"/>
+</archimate:DataObject>

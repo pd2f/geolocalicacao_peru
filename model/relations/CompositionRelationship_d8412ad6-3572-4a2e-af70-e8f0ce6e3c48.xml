@@ -1,0 +1,13 @@
+<archimate:CompositionRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="tem"
+    id="d8412ad6-3572-4a2e-af70-e8f0ce6e3c48"
+    documentation="Pontos turísticos tem fotos">
+  <source
+      xsi:type="archimate:DataObject"
+      href="DataObject_a67258eb-126f-4858-b350-40cbadbfde07.xml#a67258eb-126f-4858-b350-40cbadbfde07"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_231e2931-5115-47a3-93c1-090ccc6ada08.xml#231e2931-5115-47a3-93c1-090ccc6ada08"/>
+</archimate:CompositionRelationship>
