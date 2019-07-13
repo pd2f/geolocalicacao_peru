@@ -1,0 +1,9 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Veículos"
+    id="ad1a6b36-545f-408c-83eb-cb205b2b4d12">
+  <properties
+      key="Latitude"/>
+  <properties
+      key="Longitude"/>
+</archimate:DataObject>

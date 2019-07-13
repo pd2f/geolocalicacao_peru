@@ -1,0 +1,9 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Socorro"
+    id="d1e777ec-7eb2-4d1b-b05d-d126f47584ce">
+  <properties
+      key="Posição"/>
+  <properties
+      key="Mensagem"/>
+</archimate:DataObject>
