@@ -1,4 +1,5 @@
 <archimate:ApplicationService
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Visita no Ponto Turístico"
-    id="93b6013b-e04a-434a-97be-dacd419d1e8a"/>
+    id="93b6013b-e04a-434a-97be-dacd419d1e8a"
+    documentation="Serviço para o obter dados dos pontos turísticos a fim de promover um sincronismo para manter o APP atualizado."/>
