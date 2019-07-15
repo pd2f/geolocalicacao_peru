@@ -1,0 +1,14 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Consulta de informações do ponto"
+    id="3ad2e367-858d-4786-877f-f0e9a68e3662"
+    documentation="select * from Pontos_Turisticos;"
+    accessType="1">
+  <source
+      xsi:type="archimate:ApplicationFunction"
+      href="ApplicationFunction_7d1aa16f-5f3e-4aae-a3e5-4c3797af5543.xml#7d1aa16f-5f3e-4aae-a3e5-4c3797af5543"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_a67258eb-126f-4858-b350-40cbadbfde07.xml#a67258eb-126f-4858-b350-40cbadbfde07"/>
+</archimate:AccessRelationship>

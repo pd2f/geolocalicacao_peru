@@ -1,0 +1,14 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Registro de E/S em ponto turístico"
+    id="b2df32a4-7ba9-47f5-acba-fb76e588bb67"
+    documentation="INSERT INTO &quot;main&quot;.&quot;Visitas&quot; (&quot;id&quot;, &quot;datahora&quot;, &quot;tipo&quot;, &quot;fk_ponto&quot;, &quot;fk_visitante&quot;) VALUES ('3', '14/07/2019 15:44', 'E', '2', '1');&#xD;&#xA;INSERT INTO &quot;main&quot;.&quot;Visitas&quot; (&quot;id&quot;, &quot;datahora&quot;, &quot;tipo&quot;, &quot;fk_ponto&quot;, &quot;fk_visitante&quot;) VALUES ('4', '14/07/2019 16:20', 'S', '2', '1');"
+    accessType="3">
+  <source
+      xsi:type="archimate:ApplicationFunction"
+      href="ApplicationFunction_b2e4e2ef-59eb-4491-a80d-ccfde80d7258.xml#b2e4e2ef-59eb-4491-a80d-ccfde80d7258"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_40d1ad5e-7fb0-4349-b961-a2ba23087391.xml#40d1ad5e-7fb0-4349-b961-a2ba23087391"/>
+</archimate:AccessRelationship>

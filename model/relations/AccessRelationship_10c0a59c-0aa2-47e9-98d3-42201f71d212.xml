@@ -1,0 +1,14 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Consulta Localização ponto turístico"
+    id="10c0a59c-0aa2-47e9-98d3-42201f71d212"
+    documentation="select * from Pontos_Turisticos p&#xD;&#xA;where MBRIntersects( p.geometry,&lt;&lt;Ponto localizacao GPS>>)"
+    accessType="1">
+  <source
+      xsi:type="archimate:ApplicationFunction"
+      href="ApplicationFunction_b2e4e2ef-59eb-4491-a80d-ccfde80d7258.xml#b2e4e2ef-59eb-4491-a80d-ccfde80d7258"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_a67258eb-126f-4858-b350-40cbadbfde07.xml#a67258eb-126f-4858-b350-40cbadbfde07"/>
+</archimate:AccessRelationship>

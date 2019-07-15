@@ -1,12 +1,11 @@
 <archimate:ServingRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="atualização"
-    id="e483f1eb-a109-46d9-9f80-05d28dd9b8fb"
-    documentation="Os dados de localização, curiosidades e fotos são atualizados no aplicativo.">
+    name="clique"
+    id="6c81f95e-66a6-4080-9637-15663f7a20f9">
   <source
       xsi:type="archimate:ApplicationInterface"
-      href="ApplicationInterface_62135057-20d8-4609-9b46-56741da7a07b.xml#62135057-20d8-4609-9b46-56741da7a07b"/>
+      href="ApplicationInterface_45d0d336-1f21-44e8-ac0d-a2153b3fb76c.xml#45d0d336-1f21-44e8-ac0d-a2153b3fb76c"/>
   <target
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_98019522-d837-4ac3-95a0-a786062f4105.xml#98019522-d837-4ac3-95a0-a786062f4105"/>
