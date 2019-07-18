@@ -1,0 +1,14 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Consulta de distância do transporte"
+    id="9c72799c-9fd4-4942-bddb-d7ac725205fd"
+    documentation="select distance(v.geometry,Centroid(f.geometry)) &#xD;&#xA;&#x9;&#x9;&#x9;from Fila f, Viagem v&#xD;&#xA;&#x9;&#x9;&#x9;where v.pkuid in(select max(pkuid) &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;from Viagem  &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;where id_veiculo = &lt;&lt;identificador filtro>>)"
+    accessType="1">
+  <source
+      xsi:type="archimate:ApplicationFunction"
+      href="ApplicationFunction_b4c461fb-8e03-48d2-91a1-f8ca14dc041f.xml#b4c461fb-8e03-48d2-91a1-f8ca14dc041f"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_2d46dcb5-72de-4185-aa6b-e60815acf681.xml#2d46dcb5-72de-4185-aa6b-e60815acf681"/>
+</archimate:AccessRelationship>

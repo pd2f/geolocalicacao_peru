@@ -1,0 +1,14 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Consulta Localização Fila"
+    id="4c833d2e-4514-4eee-ac4f-bf05e044a210"
+    documentation="select * from Fila f&#xD;&#xA;where MBRIntersects( p.geometry,&lt;&lt;Ponto localizacao GPS>>)"
+    accessType="1">
+  <source
+      xsi:type="archimate:ApplicationFunction"
+      href="ApplicationFunction_4d195f22-12d8-4ad6-aafa-514c926cdfd8.xml#4d195f22-12d8-4ad6-aafa-514c926cdfd8"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_2d46dcb5-72de-4185-aa6b-e60815acf681.xml#2d46dcb5-72de-4185-aa6b-e60815acf681"/>
+</archimate:AccessRelationship>

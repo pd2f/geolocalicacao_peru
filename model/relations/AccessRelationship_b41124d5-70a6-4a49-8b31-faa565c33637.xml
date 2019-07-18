@@ -1,0 +1,14 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Consulta de Localização do Transporte"
+    id="b41124d5-70a6-4a49-8b31-faa565c33637"
+    documentation="select geometry from Viagem  where pkuid in(&#xD;&#xA;select max(pkuid) from Viagem  where id_veiculo = &lt;&lt;identificador filtro>>)"
+    accessType="1">
+  <source
+      xsi:type="archimate:ApplicationFunction"
+      href="ApplicationFunction_1895b133-4df8-4af9-bbf7-5cc04ffb6d07.xml#1895b133-4df8-4af9-bbf7-5cc04ffb6d07"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_2d00e0a7-3c38-44ad-9254-836ceb188c8b.xml#2d00e0a7-3c38-44ad-9254-836ceb188c8b"/>
+</archimate:AccessRelationship>
