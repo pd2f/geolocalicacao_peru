@@ -75,7 +75,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>3</use>
 <structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
-<reference>true</reference>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

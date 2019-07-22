@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95CA377A-B58B-BFF7-F762-2C5E32BA14DE" name="Pessoa">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 04:21:26 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<abbreviation>Pessoa</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="12F48588-A264-8615-E09A-3C6BD671C057">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 04:23:11 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="74DC11FF-B721-7F66-B55B-323764BBAF65">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 04:23:11 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CEB4F4E4-C2A4-727C-617F-3C4D129ECC26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="303B3EAA-3F21-4154-906A-0D8D1E75BDE7" name="Pessoa_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 04:23:11 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12F48588-A264-8615-E09A-3C6BD671C057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

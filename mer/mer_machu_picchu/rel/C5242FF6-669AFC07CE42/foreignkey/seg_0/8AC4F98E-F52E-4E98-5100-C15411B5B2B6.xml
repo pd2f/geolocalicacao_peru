@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AC4F98E-F52E-4E98-5100-C15411B5B2B6" containerWithKeyObject="1536183D-6129-7008-E640-C282BF72ABCA" localFKIndex="1A40EE17-63D3-D8BA-8277-77493A3B05E1" name="Passageiros_Visitantes_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 04:12:11 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<referredTableLongName>Visitantes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1867710D-651E-B166-E5BF-9DAE3AC6D8CE</referredTableID>
+<keyObject>6D470357-0F16-9C18-968C-ABF1D8CDE262</keyObject>
+<referredKeyID>6D470357-0F16-9C18-968C-ABF1D8CDE262</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pkuid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>F16C9848-63AF-AD05-932A-4B4A7E93F14A</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

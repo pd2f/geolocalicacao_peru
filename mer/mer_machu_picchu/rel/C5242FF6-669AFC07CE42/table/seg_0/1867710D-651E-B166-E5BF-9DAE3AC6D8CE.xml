@@ -22,22 +22,8 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <dependOnForeignKeyID>1B417BD0-67EB-5C42-E5A4-2388D43FD7FF</dependOnForeignKeyID>
-</Column>
-<Column name="id_visitante" id="04427A35-9D45-98A8-89A9-67DC0BAF5A46">
-<sourceDDLFile>Visitantes.sql</sourceDDLFile>
-<createdBy>Usuario</createdBy>
-<createdTime>2019-07-22 00:45:54 UTC</createdTime>
-<ownerDesignName>mer_machu_picchu</ownerDesignName>
-<nameHasQuotes>true</nameHasQuotes>
-<importedID>C6AF6B60-7050-9578-D006-C68B4A58D852</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E5FDAB64-BC51-280E-3114-0AE9D6C06C51" referredColumn="1A047873-C622-3F10-14CE-29D873BF5091"/>
-<colAssociation fkAssociation="1B417BD0-67EB-5C42-E5A4-2388D43FD7FF" referredColumn="BCF82938-61E6-8337-AB14-B1134DE8C6C7"/>
 </associations>
 </Column>
 <Column name="id_visita" id="E5CB5939-B2FF-0B33-C89C-1D30DBB528EF">
@@ -70,21 +56,19 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <dependOnForeignKeyID>1B417BD0-67EB-5C42-E5A4-2388D43FD7FF</dependOnForeignKeyID>
 </Column>
-<Column name="geometry" id="BE89FBB6-7BBF-874F-994B-C437B94E92F5">
-<sourceDDLFile>Visitantes.sql</sourceDDLFile>
+<Column name="id_pessoa" id="DA1CAA55-663D-E879-916C-2E7CAA404A8D">
 <createdBy>Usuario</createdBy>
-<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<createdTime>2019-07-22 04:23:45 UTC</createdTime>
 <ownerDesignName>mer_machu_picchu</ownerDesignName>
-<nameHasQuotes>true</nameHasQuotes>
-<importedID>62617BF9-2695-8B5F-CB4D-62276B563DAA</importedID>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>3</use>
-<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
-<reference>true</reference>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<dependOnForeignKeyID>1B417BD0-67EB-5C42-E5A4-2388D43FD7FF</dependOnForeignKeyID>
+<associations>
+<colAssociation fkAssociation="9D5819CD-E2D3-0CCD-1DC1-4E86DF099A87" referredColumn="12F48588-A264-8615-E09A-3C6BD671C057"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -108,17 +92,17 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="04427A35-9D45-98A8-89A9-67DC0BAF5A46"/>
+<colUsage columnID="F16C9848-63AF-AD05-932A-4B4A7E93F14A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B7BA44A5-5662-D053-B02E-D55572942DF8" name="Visitantes_Passageiros_FK">
+<ind_PK_UK id="3F441BBF-F1F9-950E-F64C-08913B467C39" name="Visitantes_Pessoa_FK">
 <createdBy>Usuario</createdBy>
-<createdTime>2019-07-22 01:15:37 UTC</createdTime>
+<createdTime>2019-07-22 04:23:45 UTC</createdTime>
 <ownerDesignName>mer_machu_picchu</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="04427A35-9D45-98A8-89A9-67DC0BAF5A46"/>
+<colUsage columnID="DA1CAA55-663D-E879-916C-2E7CAA404A8D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

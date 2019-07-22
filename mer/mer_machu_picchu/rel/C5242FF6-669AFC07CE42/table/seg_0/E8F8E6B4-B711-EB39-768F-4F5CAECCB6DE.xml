@@ -49,7 +49,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fk_ponto" id="EB1D906F-5778-AB50-980A-29EA25E90B15">
+<Column name="id_ponto" id="EB1D906F-5778-AB50-980A-29EA25E90B15">
 <sourceDDLFile>Visitas.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2019-07-22 00:45:54 UTC</createdTime>
@@ -65,7 +65,7 @@
 <colAssociation fkAssociation="D7A4E2C0-D3EE-1917-BB53-F2A4879C0DAD" referredColumn="99203F57-C085-2EA9-B882-0DDC6CE190EC"/>
 </associations>
 </Column>
-<Column name="fk_visitante" id="1A7E5DF5-AA4E-CFEF-632B-8A005ECF24E1">
+<Column name="id_visitante" id="1A7E5DF5-AA4E-CFEF-632B-8A005ECF24E1">
 <sourceDDLFile>Visitas.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2019-07-22 00:45:54 UTC</createdTime>

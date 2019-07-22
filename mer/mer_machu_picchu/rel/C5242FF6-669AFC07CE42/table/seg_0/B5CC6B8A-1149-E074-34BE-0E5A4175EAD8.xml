@@ -23,7 +23,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fk_ponto" id="4B937BB2-ED7F-ED8F-09A8-F6446219E05F">
+<Column name="id_ponto" id="4B937BB2-ED7F-ED8F-09A8-F6446219E05F">
 <sourceDDLFile>Curiosidades.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
 <createdTime>2019-07-22 00:45:54 UTC</createdTime>

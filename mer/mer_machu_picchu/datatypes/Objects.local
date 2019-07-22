@@ -1,5 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.datatypes.DataTypesDesign>
-   <object objectType="StructuredType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.datatypes.StructuredType" propertyParentId="4D4F91AC-B17E-6183-69C9-46CCD82898D7" propertySourceId="" propertyTargetId=""/>
+   <object objectType="DistinctType" objectID="9698BE43-7040-593C-F413-D9BAEC64275E" name="Geometry" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.datatypes.DistinctType" propertyParentId="4D4F91AC-B17E-6183-69C9-46CCD82898D7" propertySourceId="" propertyTargetId=""/>
+   <object objectType="StructuredType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.datatypes.StructuredType" propertyParentId="4D4F91AC-B17E-6183-69C9-46CCD82898D7" propertySourceId="" propertyTargetId=""/>
    <object objectType="StructuredType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.datatypes.StructuredType" propertyParentId="4D4F91AC-B17E-6183-69C9-46CCD82898D7" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.datatypes.DataTypesDesign>

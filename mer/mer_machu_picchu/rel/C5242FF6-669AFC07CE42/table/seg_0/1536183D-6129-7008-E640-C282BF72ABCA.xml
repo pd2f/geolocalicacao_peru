@@ -22,6 +22,9 @@
 <domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AC4F98E-F52E-4E98-5100-C15411B5B2B6" referredColumn="F16C9848-63AF-AD05-932A-4B4A7E93F14A"/>
+</associations>
 </Column>
 <Column name="id_viagem" id="50225932-548B-B410-9E60-5B3C75529101">
 <sourceDDLFile>Passageiros.sql</sourceDDLFile>
@@ -38,19 +41,6 @@
 <associations>
 <colAssociation fkAssociation="FDA4A502-550B-F934-42EB-7C0D3B6845FF" referredColumn="A7631612-FF5C-D68F-27B5-219E1432DB8D"/>
 </associations>
-</Column>
-<Column name="id_visitante" id="2C795558-1942-D003-29A8-1E336BA85F4E">
-<sourceDDLFile>Passageiros.sql</sourceDDLFile>
-<createdBy>Usuario</createdBy>
-<createdTime>2019-07-22 00:45:54 UTC</createdTime>
-<ownerDesignName>mer_machu_picchu</ownerDesignName>
-<nameHasQuotes>true</nameHasQuotes>
-<importedID>70B9CE4B-8761-F634-2CE2-783DC0F0145B</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -75,6 +65,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="50225932-548B-B410-9E60-5B3C75529101"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A40EE17-63D3-D8BA-8277-77493A3B05E1" name="Passageiros_Visitantes_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 04:12:11 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCF82938-61E6-8337-AB14-B1134DE8C6C7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

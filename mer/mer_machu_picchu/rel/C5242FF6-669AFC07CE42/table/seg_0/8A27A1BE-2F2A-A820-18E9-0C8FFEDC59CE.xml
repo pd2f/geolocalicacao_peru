@@ -23,20 +23,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_visitante" id="5692BA4F-9BE8-B96B-52E7-912FDEF694A1">
-<sourceDDLFile>Enfileirados.sql</sourceDDLFile>
-<createdBy>Usuario</createdBy>
-<createdTime>2019-07-22 00:45:54 UTC</createdTime>
-<ownerDesignName>mer_machu_picchu</ownerDesignName>
-<nameHasQuotes>true</nameHasQuotes>
-<importedID>1EE910CC-D2E6-09C7-523A-A0536A7ECBF6</importedID>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="id_fila" id="FF0D227F-9254-6042-3D0C-9BD9A3A44F62">
 <sourceDDLFile>Enfileirados.sql</sourceDDLFile>
 <createdBy>Usuario</createdBy>
