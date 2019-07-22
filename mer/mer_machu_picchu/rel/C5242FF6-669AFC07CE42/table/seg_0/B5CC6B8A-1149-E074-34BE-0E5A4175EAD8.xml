@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5CC6B8A-1149-E074-34BE-0E5A4175EAD8" name="Curiosidades">
+<sourceDDLFile>Curiosidades.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>5726DCA5-84E5-7769-16F1-E6B6AF94F0F1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="AB1A323A-7D6A-2FAF-A729-185586838684">
+<sourceDDLFile>Curiosidades.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>E1E57018-8594-F9DE-9B37-0C00264F5066</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fk_ponto" id="4B937BB2-ED7F-ED8F-09A8-F6446219E05F">
+<sourceDDLFile>Curiosidades.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>D788F7D7-D935-2BCF-C4F7-6A93F5B3CD66</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DBF5D41-1427-4777-251F-F9096D3A5413" referredColumn="99203F57-C085-2EA9-B882-0DDC6CE190EC"/>
+</associations>
+</Column>
+<Column name="descricao" id="E2EA487F-145C-CB3D-4296-4C03775A9E1E">
+<sourceDDLFile>Curiosidades.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>494BFE1C-568E-C4B4-F42E-E7EFD165218E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CEB4F4E4-C2A4-727C-617F-3C4D129ECC26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3649B8E0-B84D-AB03-5488-94FDA62CB515" name="Curiosidades_PK">
+<sourceDDLFile>Curiosidades.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>51C95E77-E67F-CA48-ED2B-26212DFA4366</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB1A323A-7D6A-2FAF-A729-185586838684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F190D9F5-6D2D-6977-259F-4814E7A41549" name="Curiosidades_PontosTuristicos_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:46:49 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B937BB2-ED7F-ED8F-09A8-F6446219E05F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

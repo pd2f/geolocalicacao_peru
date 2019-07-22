@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="4A40711F-30C3-D79C-34BA-3782C58FCA85" name="MER Machu Picchu " visible="true"/>
+   <object objectType="sub_view" objectID="3CE261E3-7C4A-3B0F-FFC2-AC90A2A52BA3" name="MER - Problema 1 - Pontos Turísticos" visible="true"/>
+   <object objectType="sub_view" objectID="8000F9D0-6891-0E15-201E-EB7F6813D490" name="MER - Problema 2 - Melhorar Operacionalização das Filas" visible="true"/>
+   <object objectType="sub_view" objectID="C000595E-AC04-BD7D-1C2D-08E1D4445EB4" name="MER - Problema 3 - Controle de escalada" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

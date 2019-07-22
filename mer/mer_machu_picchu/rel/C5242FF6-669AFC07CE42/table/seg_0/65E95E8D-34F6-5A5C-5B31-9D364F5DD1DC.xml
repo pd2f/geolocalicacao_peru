@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65E95E8D-34F6-5A5C-5B31-9D364F5DD1DC" name="Socorro">
+<sourceDDLFile>Socorro.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>FA1A86F5-D524-1510-6B20-8DEC54E990BD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EB316217-DE5E-147E-0148-9B5D0F71E8FC">
+<sourceDDLFile>Socorro.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>54206B18-45F5-2662-37D1-AA6C3F943BB7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_ponto" id="BB6BE521-4123-E6C0-2AFE-2E91228E955B">
+<sourceDDLFile>Socorro.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>39B74794-BE89-9016-8997-075E761A31A0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D57E108-31CE-D91D-5632-3D28720FD309" referredColumn="99203F57-C085-2EA9-B882-0DDC6CE190EC"/>
+</associations>
+</Column>
+<Column name="mensagem" id="56A985BA-9708-A37B-6068-989F8772E911">
+<sourceDDLFile>Socorro.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>C1C9E916-A682-6655-04E0-98D87DE442B7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CEB4F4E4-C2A4-727C-617F-3C4D129ECC26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_visita" id="D75C7109-03D7-5911-57C3-C988A0E7950E">
+<sourceDDLFile>Socorro.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>B1458FAE-7679-2F22-3BC4-8F0D40878827</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="794139FA-CE09-9272-7960-8CE4F78B980B" referredColumn="496C1EBE-560A-FBEE-A8D7-CB418A922690"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92036272-C454-ABA3-F8BD-4C7F7B44F268" name="Socorro_PK">
+<sourceDDLFile>Socorro.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>BDAEFB65-91C3-E292-2251-1D6DC9804156</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB316217-DE5E-147E-0148-9B5D0F71E8FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3AAB29E-734D-30F9-5282-CF10D1AAF75A" name="Socorro_PontosTuristicos_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:29:37 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB6BE521-4123-E6C0-2AFE-2E91228E955B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD999405-E85C-78C4-D8D5-F457B0DCF2AF" name="Socorro_Visitas_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:34:18 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D75C7109-03D7-5911-57C3-C988A0E7950E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

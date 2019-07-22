@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D57E108-31CE-D91D-5632-3D28720FD309" containerWithKeyObject="65E95E8D-34F6-5A5C-5B31-9D364F5DD1DC" localFKIndex="F3AAB29E-734D-30F9-5282-CF10D1AAF75A" name="Socorro_PontosTuristicos_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:29:37 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<referredTableLongName>PontosTuristicos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>84FB491D-3E0A-0EB6-F39C-A662A6F4F113</referredTableID>
+<keyObject>11895BF6-AB3F-78F2-84CF-9C859F821000</keyObject>
+<referredKeyID>11895BF6-AB3F-78F2-84CF-9C859F821000</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pkuid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

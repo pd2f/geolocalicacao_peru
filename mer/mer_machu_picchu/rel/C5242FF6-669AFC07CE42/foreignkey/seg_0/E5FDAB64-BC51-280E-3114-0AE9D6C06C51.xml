@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E5FDAB64-BC51-280E-3114-0AE9D6C06C51" containerWithKeyObject="1867710D-651E-B166-E5BF-9DAE3AC6D8CE" localFKIndex="36F3E790-A541-051F-D1EB-05F7E176CA0A" name="Visitantes_Enfileirados_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 01:07:15 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<referredTableLongName>Enfileirados</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A27A1BE-2F2A-A820-18E9-0C8FFEDC59CE</referredTableID>
+<keyObject>43542B40-55A3-86DA-9544-69EA847B261B</keyObject>
+<referredKeyID>43542B40-55A3-86DA-9544-69EA847B261B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableProxyOraclev9i" name="Socorro" directorySegmentName="seg_0" id="65E95E8D-34F6-5A5C-5B31-9D364F5DD1DC">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="mensagem" id="56A985BA-9708-A37B-6068-989F8772E911">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="id_ponto" id="BB6BE521-4123-E6C0-2AFE-2E91228E955B">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="id_visita" id="D75C7109-03D7-5911-57C3-C988A0E7950E">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="id" id="EB316217-DE5E-147E-0148-9B5D0F71E8FC">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v9i.FKProxyOraclev9i" name="Socorro_PontosTuristicos_FK" id="F3AAB29E-734D-30F9-5282-CF10D1AAF75A">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:29:37 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v9i.FKProxyOraclev9i" name="Socorro_Visitas_FK" id="FD999405-E85C-78C4-D8D5-F457B0DCF2AF">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:34:18 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v9i.PKProxyOraclev9i" name="Socorro_PK" id="92036272-C454-ABA3-F8BD-4C7F7B44F268">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 03:22:44 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev9i>

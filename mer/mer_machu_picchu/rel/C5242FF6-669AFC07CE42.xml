@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="MER Machu Picchu " id="C5242FF6-407E-5EBA-949D-669AFC07CE42" mainViewID="4A40711F-30C3-D79C-34BA-3782C58FCA85">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:40 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>9807C1FA-0550-772D-1F14-16B19CA63681</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Curiosidades.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Enfileirados.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Fila.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Fotos.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Passageiros.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>PontosTuristicos.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Veiculos.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Viagem.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Visitantes.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Visitas.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Socorro.sql</fileName>
+<pathName>C:\Users\Usuario\Desktop</pathName>
+<dbType>7</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>
