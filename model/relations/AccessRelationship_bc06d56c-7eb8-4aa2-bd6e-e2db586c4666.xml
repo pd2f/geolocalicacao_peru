@@ -1,0 +1,13 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Consulta de Localização"
+    id="bc06d56c-7eb8-4aa2-bd6e-e2db586c4666"
+    accessType="1">
+  <source
+      xsi:type="archimate:ApplicationFunction"
+      href="ApplicationFunction_0a0b1faa-0026-4b60-8a96-9e8553fcfe4b.xml#0a0b1faa-0026-4b60-8a96-9e8553fcfe4b"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_a67258eb-126f-4858-b350-40cbadbfde07.xml#a67258eb-126f-4858-b350-40cbadbfde07"/>
+</archimate:AccessRelationship>

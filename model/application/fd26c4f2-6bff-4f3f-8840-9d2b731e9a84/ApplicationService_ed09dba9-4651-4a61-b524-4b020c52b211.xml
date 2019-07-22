@@ -1,4 +1,5 @@
 <archimate:ApplicationService
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Localização"
-    id="ed09dba9-4651-4a61-b524-4b020c52b211"/>
+    name="Visitação"
+    id="ed09dba9-4651-4a61-b524-4b020c52b211"
+    documentation="Serviço para identificação dos visitantes que entram e saem da montanha."/>
