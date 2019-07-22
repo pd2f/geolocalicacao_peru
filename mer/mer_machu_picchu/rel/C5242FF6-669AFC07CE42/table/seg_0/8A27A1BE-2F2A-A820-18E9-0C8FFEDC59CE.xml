@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A27A1BE-2F2A-A820-18E9-0C8FFEDC59CE" name="Enfileirados">
+<sourceDDLFile>Enfileirados.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>AAEAC9AE-4071-12BB-E36E-F89DB8B2668D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1A047873-C622-3F10-14CE-29D873BF5091">
+<sourceDDLFile>Enfileirados.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>8E3C1805-1E6F-D098-8E1C-792BA3F13D46</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_visitante" id="5692BA4F-9BE8-B96B-52E7-912FDEF694A1">
+<sourceDDLFile>Enfileirados.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>1EE910CC-D2E6-09C7-523A-A0536A7ECBF6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_fila" id="FF0D227F-9254-6042-3D0C-9BD9A3A44F62">
+<sourceDDLFile>Enfileirados.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>0F6EDF38-F5D6-04C3-059C-C3048A556811</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88C66839-65C1-F480-A7EB-638C93BE36D2" referredColumn="2C4E1765-320F-2121-BBAA-543DECA3543C"/>
+</associations>
+</Column>
+<Column name="id_viagem" id="5EB53520-F5E0-92A9-D582-419020AA5B58">
+<sourceDDLFile>Enfileirados.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>795AA908-34BE-729C-C685-430483F5ABF2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03800AD2-5340-4143-ABA6-664F31CB4F69" referredColumn="A7631612-FF5C-D68F-27B5-219E1432DB8D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43542B40-55A3-86DA-9544-69EA847B261B" name="Enfileirados_PK">
+<sourceDDLFile>Enfileirados.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>1C2DDD72-BDEF-9659-552E-FA8FCA0F4B7A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A047873-C622-3F10-14CE-29D873BF5091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E722C806-3731-0A66-CBA2-5BFD7D52F10A" name="Enfileirados_Fila_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:48:52 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF0D227F-9254-6042-3D0C-9BD9A3A44F62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13A56A73-9681-0480-8302-91186B0C2B50" name="Enfileirados_Viagem_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 01:07:55 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EB53520-F5E0-92A9-D582-419020AA5B58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

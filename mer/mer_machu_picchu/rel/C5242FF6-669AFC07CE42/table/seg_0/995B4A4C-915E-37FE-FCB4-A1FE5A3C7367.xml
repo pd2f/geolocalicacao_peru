@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="995B4A4C-915E-37FE-FCB4-A1FE5A3C7367" name="Viagem">
+<sourceDDLFile>Viagem.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>3DB3DCC4-0B9B-3965-CE68-715A7B3650CB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pkuid" id="A7631612-FF5C-D68F-27B5-219E1432DB8D">
+<sourceDDLFile>Viagem.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>BA0122E1-3ED8-ABBA-C177-65CF36F7EE73</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="37C34614-E4DD-AD73-D648-7D869BBA2E4E">
+<sourceDDLFile>Viagem.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>7D2E0DAB-D7B6-88C6-C198-E9F470CC66B4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_veiculo" id="3DB02B00-5BA6-FC21-8CB5-E7A9102D0A9B">
+<sourceDDLFile>Viagem.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>8ACED073-23E5-18A4-F8A3-122513B65276</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38FA5EAD-E5CD-FE63-76E5-5F4645DA792B" referredColumn="AF0543F5-A368-620E-6314-FE57D930E7B8"/>
+</associations>
+</Column>
+<Column name="data" id="2C47298E-6E90-CC3C-E3D2-87753EB12233">
+<sourceDDLFile>Viagem.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>620F38B5-7A5A-940E-05B1-7EE945C1F9CF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="geometry" id="0D5E0820-8930-DBA4-C6E4-234BFAC87D21">
+<sourceDDLFile>Viagem.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>F8C9EA8C-5585-289A-D9D5-C505A702C578</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="EF960F0E-629E-960A-38A5-BE5A95E5AF89">
+<sourceDDLFile>Viagem.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>5672E03A-46B2-5EEF-31DB-3EBC738BC80B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA3B3352-BB0D-C1F2-9DD9-0904F111FA8A" name="Viagem_PK">
+<sourceDDLFile>Viagem.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>F1F26958-5AAA-3D2C-4398-770CEEF796DB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7631612-FF5C-D68F-27B5-219E1432DB8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78F0EF3A-5CD5-C707-37BC-C46560FDB9A3" name="Viagem_Veiculos_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:52:59 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DB02B00-5BA6-FC21-8CB5-E7A9102D0A9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

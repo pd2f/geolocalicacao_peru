@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C133C97E-92B9-8C13-6690-56A37F04BA26" name="Fila">
+<sourceDDLFile>Fila.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>703A90EA-B5C2-73EE-F35A-67CE4D40F083</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pkuid" id="2C4E1765-320F-2121-BBAA-543DECA3543C">
+<sourceDDLFile>Fila.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>33C8162A-7519-16B4-21CE-810B97F98782</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="97A8D253-F725-4B9A-CDBA-F436FAFC06A8">
+<sourceDDLFile>Fila.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>8D9684A2-7AAA-A337-3783-0BB1C7EAFED4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="73205F32-DE79-4D4F-F8B0-98EEFCBC6CFE">
+<sourceDDLFile>Fila.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>819F1ABC-2DAD-DBAC-5D53-4CA20BE3FE4B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CEB4F4E4-C2A4-727C-617F-3C4D129ECC26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="05E0A8CD-E152-7561-B7D6-515849E4D7BE">
+<sourceDDLFile>Fila.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>CDBA1714-29EB-1AFB-046A-35E856D287F7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CEB4F4E4-C2A4-727C-617F-3C4D129ECC26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="geometry" id="312EF4CF-27E9-EB8C-CC26-9B3138124FBA">
+<sourceDDLFile>Fila.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>588267B3-1441-03F9-BC35-360CCFB901B2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<reference>true</reference>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="momento" id="96DDC61E-8E3B-7480-CA7A-8E8625678385">
+<sourceDDLFile>Fila.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>16006773-F32E-FF92-037D-2D0305364B42</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B709E5D7-6D4F-8A40-244A-0C23A817CA99" name="Fila_PK">
+<sourceDDLFile>Fila.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>E5F9CCFB-9663-A193-1E12-873B7AA2028A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C4E1765-320F-2121-BBAA-543DECA3543C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

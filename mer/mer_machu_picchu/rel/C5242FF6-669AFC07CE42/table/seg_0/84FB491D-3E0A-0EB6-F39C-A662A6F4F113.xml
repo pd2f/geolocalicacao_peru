@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84FB491D-3E0A-0EB6-F39C-A662A6F4F113" name="PontosTuristicos">
+<sourceDDLFile>PontosTuristicos.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>B22A06BA-0C68-3EBE-0ECA-B8D753FE4FD5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pkuid" id="99203F57-C085-2EA9-B882-0DDC6CE190EC">
+<sourceDDLFile>PontosTuristicos.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>9866677E-61B0-9E3C-2A7B-EF59E2C93638</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="D6425DF3-0655-1C52-9BA0-5E3FC87DDEC5">
+<sourceDDLFile>PontosTuristicos.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>07087C72-E776-8583-1357-29EA2DFC35C5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CEB4F4E4-C2A4-727C-617F-3C4D129ECC26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="B2CF6080-F407-E33F-9FFB-4C485278F32D">
+<sourceDDLFile>PontosTuristicos.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>B41FA15E-C18F-87F3-5EE0-966209FB9A0C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CEB4F4E4-C2A4-727C-617F-3C4D129ECC26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="geometry" id="F35783E6-589A-54CF-49CF-4740B6D3FB09">
+<sourceDDLFile>PontosTuristicos.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>E45AFC6A-DC4D-FE3B-BCCD-1EF247829FD6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="23EA3123-5242-D2D0-62E2-1370A7B3B4BF">
+<sourceDDLFile>PontosTuristicos.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>E720BADA-F41B-D77F-16AF-09E8FF849B21</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11895BF6-AB3F-78F2-84CF-9C859F821000" name="PontosTuristicos_PK">
+<sourceDDLFile>PontosTuristicos.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>EC467DFA-9208-8372-226E-EA5BCAC86CF0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99203F57-C085-2EA9-B882-0DDC6CE190EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

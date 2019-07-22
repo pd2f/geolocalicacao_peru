@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Curiosidades_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="B49107FA-32AE-C326-CBEA-BD851D81631F">
+         <createdBy>Usuario</createdBy>
+         <createdTime>2019-07-22 00:45:54 UTC</createdTime>
+         <ownerDesignName>mer_machu_picchu</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>Curiosidades_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

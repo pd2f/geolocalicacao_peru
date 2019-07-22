@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev9i class="oracle.dbtools.crest.model.design.storage.oracle.v9i.TableProxyOraclev9i" name="PontosTuristicos" directorySegmentName="seg_0" id="84FB491D-3E0A-0EB6-F39C-A662A6F4F113">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id" id="23EA3123-5242-D2D0-62E2-1370A7B3B4BF">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="pkuid" id="99203F57-C085-2EA9-B882-0DDC6CE190EC">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="descricao" id="B2CF6080-F407-E33F-9FFB-4C485278F32D">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="nome" id="D6425DF3-0655-1C52-9BA0-5E3FC87DDEC5">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="geometry" id="F35783E6-589A-54CF-49CF-4740B6D3FB09">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v9i.PKProxyOraclev9i" name="PontosTuristicos_PK" id="11895BF6-AB3F-78F2-84CF-9C859F821000">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev9i>

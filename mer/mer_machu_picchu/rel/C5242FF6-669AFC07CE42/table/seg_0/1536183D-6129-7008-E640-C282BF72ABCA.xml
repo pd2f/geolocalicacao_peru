@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1536183D-6129-7008-E640-C282BF72ABCA" name="Passageiros">
+<sourceDDLFile>Passageiros.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>1537DC1D-18CE-560B-FFA1-79964292EB43</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BCF82938-61E6-8337-AB14-B1134DE8C6C7">
+<sourceDDLFile>Passageiros.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>234A8D84-E8EA-1DB9-7C96-94FD2C78C4B5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_viagem" id="50225932-548B-B410-9E60-5B3C75529101">
+<sourceDDLFile>Passageiros.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>55D53D16-1F08-8CD3-2A04-9D5CE6F84CE5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDA4A502-550B-F934-42EB-7C0D3B6845FF" referredColumn="A7631612-FF5C-D68F-27B5-219E1432DB8D"/>
+</associations>
+</Column>
+<Column name="id_visitante" id="2C795558-1942-D003-29A8-1E336BA85F4E">
+<sourceDDLFile>Passageiros.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>70B9CE4B-8761-F634-2CE2-783DC0F0145B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12D7923F-D430-B48D-4E98-9E22D93F4847" name="Passageiros_PK">
+<sourceDDLFile>Passageiros.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>A6B3BD3B-881E-6083-6CA4-182FAC82F431</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCF82938-61E6-8337-AB14-B1134DE8C6C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAFB1EF0-FF0D-D04A-F577-BC4B90A63A93" name="Passageiros_Viagem_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:54:21 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50225932-548B-B410-9E60-5B3C75529101"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

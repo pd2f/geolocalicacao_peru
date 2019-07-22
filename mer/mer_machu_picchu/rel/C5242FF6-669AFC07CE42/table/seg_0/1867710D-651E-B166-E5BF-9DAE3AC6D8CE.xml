@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1867710D-651E-B166-E5BF-9DAE3AC6D8CE" name="Visitantes">
+<sourceDDLFile>Visitantes.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>CC221F8E-0E86-420C-A94C-FC4C76B23E2A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pkuid" id="F16C9848-63AF-AD05-932A-4B4A7E93F14A">
+<sourceDDLFile>Visitantes.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>2CFC9C5B-F58A-D869-669E-76FFD2567B14</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<dependOnForeignKeyID>1B417BD0-67EB-5C42-E5A4-2388D43FD7FF</dependOnForeignKeyID>
+</Column>
+<Column name="id_visitante" id="04427A35-9D45-98A8-89A9-67DC0BAF5A46">
+<sourceDDLFile>Visitantes.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>C6AF6B60-7050-9578-D006-C68B4A58D852</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5FDAB64-BC51-280E-3114-0AE9D6C06C51" referredColumn="1A047873-C622-3F10-14CE-29D873BF5091"/>
+<colAssociation fkAssociation="1B417BD0-67EB-5C42-E5A4-2388D43FD7FF" referredColumn="BCF82938-61E6-8337-AB14-B1134DE8C6C7"/>
+</associations>
+</Column>
+<Column name="id_visita" id="E5CB5939-B2FF-0B33-C89C-1D30DBB528EF">
+<sourceDDLFile>Visitantes.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>CEF8DE9B-1C23-05FC-F310-F2F1FFC33330</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C779FBB1-566F-2D8A-28D2-805664E2A3FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<dependOnForeignKeyID>1B417BD0-67EB-5C42-E5A4-2388D43FD7FF</dependOnForeignKeyID>
+</Column>
+<Column name="descricao" id="8F9CA631-2FEE-6F25-9FD5-6CA7981847EB">
+<sourceDDLFile>Visitantes.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>9240AF7B-4DB3-6729-3DDC-5599A7A88C9E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CEB4F4E4-C2A4-727C-617F-3C4D129ECC26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<dependOnForeignKeyID>1B417BD0-67EB-5C42-E5A4-2388D43FD7FF</dependOnForeignKeyID>
+</Column>
+<Column name="geometry" id="BE89FBB6-7BBF-874F-994B-C437B94E92F5">
+<sourceDDLFile>Visitantes.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>62617BF9-2695-8B5F-CB4D-62276B563DAA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<reference>true</reference>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<dependOnForeignKeyID>1B417BD0-67EB-5C42-E5A4-2388D43FD7FF</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D470357-0F16-9C18-968C-ABF1D8CDE262" name="Visitantes_PK">
+<sourceDDLFile>Visitantes.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:45:54 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<importedID>AAE49A58-86D4-8678-6831-762AB7316B8F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F16C9848-63AF-AD05-932A-4B4A7E93F14A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36F3E790-A541-051F-D1EB-05F7E176CA0A" name="Visitantes_Enfileirados_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 01:07:15 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04427A35-9D45-98A8-89A9-67DC0BAF5A46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7BA44A5-5662-D053-B02E-D55572942DF8" name="Visitantes_Passageiros_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 01:15:37 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04427A35-9D45-98A8-89A9-67DC0BAF5A46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

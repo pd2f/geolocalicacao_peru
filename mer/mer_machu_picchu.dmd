@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mer_machu_picchu" id="B765DD8C-B37C-3171-C248-8A87835B1A5A" version="3.5">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-07-22 00:22:16 UTC</createdTime>
+<ownerDesignName>mer_machu_picchu</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B765DD8C-B37C-3171-C248-8A87835B1A5A</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="298AA397-8A47-CF70-00A1-7B40858B1BF2">
+<designStoragePath>C:\Curiosidades</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="69350F17-E772-BF8F-0BDC-2AC189F26DE2">
+<designStoragePath>C:\Socorro</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
